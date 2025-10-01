@@ -35,14 +35,13 @@ background-color: lightblue;
     float: left;
 }
 
-#foot{
+#footer{
     color: white;
     background-color: black;
-    position: relative;
+    position: right;
     width: 100%;
-    height: 100%;
+    height: 20%;
     margin: 0px;
-    
 }
 
 p 
