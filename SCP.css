@@ -10,28 +10,43 @@ body{
 .header  {
 width: 100%;
 margin: 0px;
-height: 20%;
+height: 10%;
 padding: 0px;
 position: top;
 background-color: lightblue;
 }
 #corp{
     width: 100%;
-    height: 60%;
+    height: 80%;
     position: relative;
 }
-
+#bloc{
+    background-color: red;
+    width: 20%;
+    height: 33%;
+    position: absolute;
+    float: right;
+    right: 00%;
+    top: 0%;
+}
 
 #menu1{
     height: 100%;
     background-color: green;
-    width: 80%;
+    width: 90%;
     float: right;
 }
 #menu2{
-    height: 100%;
+    height: 50%;
     background-color: pink;
-    width: 20%;
+    width: 10%;
+    float: left;
+
+}
+#menu3{
+    height: 50%;
+    background-color: yellow;
+    width: 10%;
     float: left;
 }
 
@@ -40,13 +55,18 @@ background-color: lightblue;
     background-color: black;
     position: right;
     width: 100%;
-    height: 20%;
+    height: 10%;
     margin: 0px;
 }
 
+#textbloc
+{
+    width: 300px;
+}
 p 
 {
     margin:0px;
+    width: 77%;
 }
 h1{
     margin: 0px;
