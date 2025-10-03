@@ -36,6 +36,41 @@ background-color: lightblue;
     width: 90%;
     float: right;
 }
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: greenyellow;
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  text-align: center;
+}
+
+#tableau2{
+position: relative;
+top: -261px;
+left: 320px;
+color: blue;
+}
+
+#tableau3{
+    position: relative;
+    top: -521px;
+    left: 640px;
+    color: greenyellow;
+
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+}
 #menu2{
     height: 50%;
     background-color: pink;
@@ -59,14 +94,30 @@ background-color: lightblue;
     margin: 0px;
 }
 
-#textbloc
+#texte1
 {
-    width: 300px;
+    width: 77%;
+    color: blue;
+    font-size: 20px;
 }
+
+#color{
+width: 77%;
+color: red;
+font-size: 30px;
+
+}
+
+#color2{
+    width: 77%;
+    color: blue;
+    font-size: 20px;
+}
+
 p 
 {
     margin:0px;
-    width: 77%;
+   
 }
 h1{
     margin: 0px;
